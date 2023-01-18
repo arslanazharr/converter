@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    
+</head>
+
+<body>
+    <form onsubmit = "converter(); return false;" id="converter">
+        <label for="conv">Enter Number</label>
+        <br><br><input type="number" name="conv" id="conv">
+        <select name="choose_conv" id="choose_conv">
+            <option value="kg">kg</option>
+            <option value="g">g</option>
+        </select>
+       <br><br> <input type="submit" name="conv">
+        <span id="resultBox"></span>
+    
+    </form>
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
